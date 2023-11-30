@@ -28,7 +28,7 @@ find_library(NAPATECH_LIBRARY
 )
 
 include(FindPackageHandleStandardArgs)
-find_package_handle_standard_args(NAPATECH DEFAULT_MSG
+find_package_handle_standard_args(Napatech DEFAULT_MSG
 	NAPATECH_LIBRARY
 	NAPATECH_INCLUDE_DIR
 )

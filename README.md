@@ -6,8 +6,17 @@ Installation
 
 Follow Napatech's instructions to install its kernel module and userspace libraries. 
 
+Ensure that `zeek-config` is found in PATH. This is used by the `configure`
+script find information about the Zeek installation.
+
 ```
-./configure --bro-dist=<path to zeek sources> --with-napatech=<path to napatech installation> && make && make install
+zeek-config --version
+```
+
+Configure, compile and install the plugin.
+
+```
+./configure --with-napatech=<path to napatech installation> && make && make install
 ```
 
 If everything built and installed correctly, you should be able to verify the installation with the following command and output:
