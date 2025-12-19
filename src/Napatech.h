@@ -41,8 +41,8 @@ extern "C" {
 #include <stdio.h>
 }
 
-#include "iosource/PktSrc.h"
-#include "iosource/pcap/Source.h"
+#include <zeek/iosource/PktSrc.h>
+#include <zeek/iosource/pcap/Source.h>
 
 
 #include <nt.h>

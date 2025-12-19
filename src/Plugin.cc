@@ -36,14 +36,14 @@ POSSIBILITY OF SUCH DAMAGE.
 #include "Plugin.h"
 #include "Napatech.h"
 #include <pcap.h>
-#include "iosource/pcap/Source.h"
-#include "iosource/BPF_Program.h"
-#include "iosource/Component.h"
-#include "iosource/IOSource.h"
-#include "iosource/Manager.h"
-#include "iosource/Packet.h"
-#include "iosource/PktDumper.h"
-#include "iosource/PktSrc.h"
+#include <zeek/iosource/pcap/Source.h>
+#include <zeek/iosource/BPF_Program.h>
+#include <zeek/iosource/Component.h>
+#include <zeek/iosource/IOSource.h>
+#include <zeek/iosource/Manager.h>
+#include <zeek/iosource/Packet.h>
+#include <zeek/iosource/PktDumper.h>
+#include <zeek/iosource/PktSrc.h>
 
 
 namespace plugin::Zeek_Napatech { Plugin plugin; }
