@@ -7,7 +7,7 @@ Installation
 Follow Napatech's instructions to install its kernel module and userspace libraries. 
 
 ```
-./configure --bro-dist=<path to zeek sources> --with-napatech=<path to napatech installation> && make && make install
+./configure --zeek-dist=<path to zeek sources> --with-napatech=<path to napatech installation> && make && make install
 ```
 
 If everything built and installed correctly, you should be able to verify the installation with the following command and output:
